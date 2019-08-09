@@ -4,7 +4,7 @@ This is a wrapping for calling server methods (google.script.run), using Promise
 
 
 ## Example
-Calling `getRecords` method on a server-side with an argument *drivers*
+Calling the `getRecords` method on a server-side with the argument *drivers*
 ```javascript
 runGoogleScript( 
     'getRecords',
