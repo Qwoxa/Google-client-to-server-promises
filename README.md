@@ -8,7 +8,7 @@ Calling `getRecords` method on a server-side with an argument *drivers*
 ```javascript
 runGoogleScript( 
     'getRecords',
-    'drivers',
+    'drivers'
 ).then(
     json => {
         const data = JSON.parse( json );
@@ -17,9 +17,9 @@ runGoogleScript(
     err => {
         // handle error..
     }
-).catch(e) {
+).catch(
     err => {
         // catch err (if json was invalid)
     }
-}
+);
 ```
